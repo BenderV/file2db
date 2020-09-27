@@ -1,6 +1,6 @@
 # File2DB
 
-A mini OS X app to simply upload a CSV/JSON file to a database (PostgreSQL | MySQL | SQLite | Oracle | Microsoft SQL Server).
+A mini OS X app to simply upload a CSV/JSON/EXCEL file to a database (PostgreSQL | MySQL | SQLite | Oracle | Microsoft SQL Server).
 You don't need to create the table structure, the application extract it from analysing the content of the file.
 
 
@@ -19,5 +19,4 @@ To make it an app, we use Pashua & Platypus.
 3. Activate the environment: `source venv/bin/activate`
 4. Install dependancies: `pip install -r requirements.txt`
 5. Download [Platypus](https://sveinbjorn.org/platypus) and install it.
-6. Start platypus and create the app (![config example](assets/platypus.png))
-
+6. Start platypus and create the app. See [the configuration example](assets/platypus.png)

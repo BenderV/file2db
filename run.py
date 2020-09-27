@@ -16,30 +16,30 @@ from upload import upload
 
 conf = u"""
 # Set window title
-*.title = Auto Upload
+*.title = File 2 DB
 # INTRO
 intro.type = text
-intro.default = Automaticaly upload CSV into Database with hassle.
+intro.default = Automaticaly upload data file into your database without hassle.[return][return]File format supported: CSV | JSON | EXCEL[return]Database: PostgreSQL | MySQL | SQLite | Oracle | Microsoft SQL Server.
 intro.height = 400
-intro.width = 310
+intro.width = 500
 intro.tooltip = This is an element of type “text”
 # DATABASE URI
 uri.type = textfield
 uri.label = URI of the database
-uri.default = postgresql://localhost/default
-uri.width = 310
+uri.default = postgresql://localhost/defaultdb
+uri.width = 500
 # SCHEMA
 schema.type = textfield
 schema.label = schema
-schema.default = public
+schema.default = 
 # TABLE
 table_name.type = textfield
-table_name.label = table
+table_name.label = table name
 # CSV PATH
-csv_path.type = openbrowser
-csv_path.label = Select CSV file
-csv_path.width=310
-csv_path.tooltip = This is an element of type “openbrowser”
+path.type = openbrowser
+path.label = Select your file
+path.width=500
+path.tooltip = The file you want to import
 """
 
 # Set the images' paths relative to Pashua.app's path
