@@ -4,6 +4,9 @@ A mini OS X app to simply upload a CSV/JSON/EXCEL file to a database (PostgreSQL
 You don't need to create the table structure, the application extract it from analysing the content of the file.
 
 
+![App](assets/app.png)
+
+
 ### Download
 Go to [Release](https://github.com/BenderV/file2db/releases) to download the app.
 
