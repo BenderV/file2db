@@ -19,4 +19,5 @@ To make it an app, we use Pashua & Platypus.
 3. Activate the environment: `source venv/bin/activate`
 4. Install dependancies: `pip install -r requirements.txt`
 5. Download [Platypus](https://sveinbjorn.org/platypus) and install it.
-6. Start platypus and create the app
+6. Start platypus and create the app (![config example](assets/platypus.png))
+
